@@ -2,7 +2,7 @@
 
 #define DHT11_PIN GPIO_PIN_1
 #define DHT11_PORT GPIOB
-
+//测试1
 uint8_t DHT11_Read_Data(uint8_t *temp, uint8_t *humi) {
     uint8_t i, j, temp_data[5] = {0};
     
